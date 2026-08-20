@@ -23,7 +23,7 @@
   function ring(r, alpha) {
     ctx.beginPath();
     ctx.arc(cx, cy, r, 0, Math.PI * 2);
-    ctx.strokeStyle = "rgba(217, 119, 87, " + alpha + ")";
+    ctx.strokeStyle = "rgba(122, 139, 153, " + alpha + ")";
     ctx.lineWidth = 1;
     ctx.stroke();
   }
@@ -38,7 +38,7 @@
     ctx.beginPath();
     ctx.moveTo(cx, cy);
     ctx.lineTo(gx, gy);
-    ctx.strokeStyle = "rgba(217, 119, 87, 0.5)";
+    ctx.strokeStyle = "rgba(122, 139, 153, 0.5)";
     ctx.lineWidth = 1.5;
     ctx.stroke();
   }
@@ -55,8 +55,8 @@
       : null;
 
     if (grad) {
-      grad.addColorStop(0, "rgba(217, 119, 87, 0)");
-      grad.addColorStop(1, "rgba(217, 119, 87, 0.22)");
+      grad.addColorStop(0, "rgba(122, 139, 153, 0)");
+      grad.addColorStop(1, "rgba(122, 139, 153, 0.22)");
       ctx.save();
       ctx.beginPath();
       ctx.moveTo(cx, cy);
@@ -72,7 +72,7 @@
     ctx.beginPath();
     ctx.moveTo(cx, cy);
     ctx.lineTo(gx, gy);
-    ctx.strokeStyle = "rgba(217, 119, 87, 0.65)";
+    ctx.strokeStyle = "rgba(122, 139, 153, 0.65)";
     ctx.lineWidth = 1.5;
     ctx.stroke();
 
